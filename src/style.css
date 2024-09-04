@@ -1,0 +1,29 @@
+#thefile {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 100;
+}
+    
+audio {
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+    width: calc(100% - 20px);
+}
+
+#bars {
+    display: flex;
+    gap: 1px;
+}
+.bar {
+    flex-basis: calc(100% / 128);
+    flex-grow: 1;
+}
+    
+#infos {
+    position: fixed;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
